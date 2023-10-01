@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to right, rgb(186, 251, 251), rgb(42, 241, 241));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(168, 221, 203);
+    border-radius: 105px;
+}
+
+button:hover{
+    background-color: aquamarine;
+    border-radius: 105px;
+    font-weight: 900;
+    transition: background-color ease-in-out .5s;
+}
